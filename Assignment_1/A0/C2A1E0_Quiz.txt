@@ -1,0 +1,35 @@
+/*
+ * Name: Krishna Ram Budhathoki, UCSD-ID: U07256570
+ * email: krishna.budhathoki@gmail.com
+ * course: C/C++ Programming II : Dynamic Memory and File I/O Concepts
+ * Section ID: 124134,Instructor: Raymond L. Mitchell, Jr., M.S
+ * Date: 7/12/2017
+ * File Name: C2A1E0_Quiz.txt
+ * OS: window 7
+ * Compiler: g++ (GCC) 6.3.0
+ *
+ * Class Type Employee is defined. Most of the member functions are also defined
+ * Function overloading is implemented for functions name Set and Get
+ *
+ * DO NOT COPY OR RESTATE MY INSTRUCTIONS IN THE TITLE BLOCK.
+ */
+1. D
+2. A
+3. A
+4. B
+5. E
+6. C
+7. D
+8. E
+9. A
+10. C
+11. A
+12. E
+13. D
+14. B
+15. A
+16. B
+17. D
+18. E
+19. B
+20. E

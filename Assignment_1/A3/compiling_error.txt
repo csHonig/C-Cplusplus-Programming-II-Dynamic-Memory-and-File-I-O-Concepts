@@ -1,0 +1,3 @@
+C:\Users\kbudhath\AppData\Local\Temp\cculTMqk.o:C2A1E3_main-Driver.c:(.text+0x8b): undefined reference to `FindFirstInt'
+C:\Users\kbudhath\AppData\Local\Temp\cculTMqk.o:C2A1E3_main-Driver.c:(.text+0xe3): undefined reference to `FindFirstInt'
+collect2.exe: error: ld returned 1 exit status
