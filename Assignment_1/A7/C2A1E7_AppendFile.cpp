@@ -8,10 +8,11 @@
  * OS: window 7
  * Compiler: g++ (GCC) 6.3.0
  *
- * Class Type Employee is defined. Most of the member functions are also defined
- * Function overloading is implemented for functions name Set and Get
- *
- * DO NOT COPY OR RESTATE MY INSTRUCTIONS IN THE TITLE BLOCK.
+ * This file constains the definition of AppendFile function which opens the
+ * files inFile and outFile using the minimum access privileges necessary and
+ * append the contents of the file specified by inFile onto the file outFile
+ * creating the outFile if it doesn't exist. It works for both binary and text
+ * mode.
  */
 
 #include <fstream>

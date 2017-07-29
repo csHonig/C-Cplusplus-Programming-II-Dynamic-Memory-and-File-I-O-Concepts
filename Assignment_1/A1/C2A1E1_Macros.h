@@ -4,15 +4,16 @@
  * email: krishna.budhathoki@gmail.com
  * course: C/C++ Programming II : Dynamic Memory and File I/O Concepts
  * Section ID: 124134,Instructor: Raymond L. Mitchell, Jr., M.S
- * Date: 7/12/2017
+ * Date: 7/14/2017
  * File Name: C2A1E1_Macros.h
  * OS: window 7
  * Compiler: g++ (GCC) 6.3.0
  *
- * Class Type Employee is defined. Most of the member functions are also defined
- * Function overloading is implemented for functions name Set and Get
- *
- * DO NOT COPY OR RESTATE MY INSTRUCTIONS IN THE TITLE BLOCK.
+ * This file contains the macro definition as below
+ *  Product: takes two arguments and calculates the product of them
+ *  Negate: It takes one argument and produce the negative value of this argument
+ *  Elements: It takes one argument of array variable type and produces the total
+ * count of  elements in that array
  */
 #define C2A1E1_MACROS_H
 

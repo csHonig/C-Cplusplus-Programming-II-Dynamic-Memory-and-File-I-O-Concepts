@@ -3,15 +3,14 @@
  * email: krishna.budhathoki@gmail.com
  * course: C/C++ Programming II : Dynamic Memory and File I/O Concepts
  * Section ID: 124134,Instructor: Raymond L. Mitchell, Jr., M.S
- * Date: 7/12/2017
+ * Date: 7/14/2017
  * File Name: C2A1E2_main.c
  * OS: window 7
  * Compiler: g++ (GCC) 6.3.0
  *
- * Class Type Employee is defined. Most of the member functions are also defined
- * Function overloading is implemented for functions name Set and Get
- *
- * DO NOT COPY OR RESTATE MY INSTRUCTIONS IN THE TITLE BLOCK.
+ * This file contains the main function definition, which takes variable command line arguments.
+ * It then prints the total count of the number of command line arguments that were present when the
+ * program was started followed by each arguments in the same order starting with argv[0]
  */
 #include <stdio.h>
 //the main func to print the total number of arguments along followed by value

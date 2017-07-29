@@ -14,7 +14,7 @@
  */
 #define ENDPOINT 5
 #define TERMINATE 999
-#define MAXWIDTH 5
+
 #define SIZE (2 * ENDPOINT + 1)
 #include <stdio.h>
 //function defintion of RecordOpinions
@@ -22,7 +22,8 @@ void RecordOpinions(void)
 {
     //define and initialize the count array to zero
     int count[SIZE] = {0};
-    //const pointer pcount points to the index 0 of count array
+    //pointer pcount points to the index ENDPOINT of count array  which is
+    //treated as 0 index for pcount for supporting -ve indexing
     int *pcount = &count[ENDPOINT];
 
     for (;;)
@@ -30,22 +31,17 @@ void RecordOpinions(void)
         printf("Please enter the rating in range %d to %d, %d being the highest\n",
                 ENDPOINT, -ENDPOINT, ENDPOINT);
         int userresponse;
-        if (scanf("%d", &userresponse) != 1)
-        {
-            printf("Wrong data type entered: Pls try again\n");
-            continue;
-        }
+        scanf("%d", &userresponse);
         //for the valid userresponse, increment the value pointed by pcount
         //offset by userresponse
-        printf("Hello\n");
         if (-ENDPOINT <= userresponse && userresponse <= ENDPOINT)
             pcount[userresponse]++;
         else if (userresponse  == TERMINATE)
         {
-            printf("Rating     Responses\n------     ---------");
+            printf("%5s%10s\n%5s%10s\n", "Rating", "Responses", "------", "---------");
             //print the tabular output of the all the response count
             for (int loop = -ENDPOINT; loop <= ENDPOINT; ++loop)
-                printf("\n%*d    %*d", MAXWIDTH, loop, MAXWIDTH, pcount[loop]);
+                printf("%5d%10d\n", loop, pcount[loop]);
             break;
         }
         else

@@ -10,10 +10,9 @@
  * OS: window 7
  * Compiler: g++ (GCC) 6.3.0
  *
- * Class Type Employee is defined. Most of the member functions are also defined
- * Function overloading is implemented for functions name Set and Get
- *
- * DO NOT COPY OR RESTATE MY INSTRUCTIONS IN THE TITLE BLOCK.
+ * Class Type Employee is defined in this file. Most of the member functions
+ * are also defined. Function overloading is implemented for functions name Set
+ * and Get.
  */
 #define C2A1E8_EMPLOYEE_H
 class Employee

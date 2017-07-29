@@ -8,10 +8,9 @@
  * OS: window 7
  * Compiler: g++ (GCC) 6.3.0
  *
- * Class Type Employee is defined. Most of the member functions are also defined
- * Function overloading is implemented for functions name Set and Get
- *
- * DO NOT COPY OR RESTATE MY INSTRUCTIONS IN THE TITLE BLOCK.
+ * This File contains the definition of function StrToUpper which copies the
+ * string represented by its second parameter, source into memory represented by
+ * its first parameter destination with any lowercase converted to uppercase.
  */
 #include <ctype.h>
 //function to convert to upper case for any given string

@@ -8,10 +8,10 @@
  * OS: window 7
  * Compiler: g++ (GCC) 6.3.0
  *
- * Class Type Employee is defined. Most of the member functions are also defined
- * Function overloading is implemented for functions name Set and Get
- *
- * DO NOT COPY OR RESTATE MY INSTRUCTIONS IN THE TITLE BLOCK.
+ * This file contains the definition of function Employee::Set which dynamically
+ * allocates exactly the amount of memroy necessary to hold that string pointed
+ * by ch with null terminator, set member name to point to that memory and copy
+ * the string into that memory
  */
 #include <cstring>
 #include "C2A1E8_Employee.h"

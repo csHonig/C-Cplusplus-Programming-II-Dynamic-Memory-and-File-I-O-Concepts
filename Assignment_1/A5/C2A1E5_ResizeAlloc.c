@@ -8,10 +8,11 @@
  * OS: window 7
  * Compiler: g++ (GCC) 6.3.0
  *
- * Class Type Employee is defined. Most of the member functions are also defined
- * Function overloading is implemented for functions name Set and Get
- *
- * DO NOT COPY OR RESTATE MY INSTRUCTIONS IN THE TITLE BLOCK.
+ * This file contains the definition of ResizeAlloc function which dynamically
+ * allocates an entirely new block of memory containing newSize bytes or, resize
+ * an existing block in pOld containing oldSize bytes to newSize bytes. When
+ * resize occurs all existing data that will fit into newSize bytes will be
+ * preserved.
  */
 #include <stdlib.h>
 //implementing the reallocation of dynamically allocated memory spaces

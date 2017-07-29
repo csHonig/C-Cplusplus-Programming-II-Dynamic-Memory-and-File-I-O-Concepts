@@ -1,0 +1,19 @@
+Name: Krishna Ram Budhathoki
+email: krishna.budhathoki@gmail.com
+date: 7/16/2017
+course: C/C++ Programming II : Dynamic Memory and File I/O Concepts
+Section ID: 124134, Instructor: Raymond L. Mitchell, Jr., M.S
+file: C2A3E1_Sentences.txt
+This file demonstrates the use of Right-Left rule to create a numbered sentence for each expression given
+that describes the data type
+
+1. values is a pointer to a float
+2. values is an array of 25 float
+3. values is a pointer to a float
+4. values is a pointer to a float
+5. values is a pointer to a float
+6. values is a pointer to a float
+7. values is an array of 25 float
+8. values is a pointer to a float
+9. values is a pointer to a float
+10.values is a pointer to a float
